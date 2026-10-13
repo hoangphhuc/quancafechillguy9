@@ -1,0 +1,245 @@
+
+
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-image: url('../img/LGO.jfif');
+    color: white;
+    padding: 80px;
+    text-align: center;
+     font-size:140PX;
+}
+
+.logo {
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+NAV {
+    background: #fffefe;
+    padding: 40px;
+    text-align: center;
+}
+nav a {
+    color: black;
+   Background: #c9b8a9;
+   font-size:20px;
+    text-Align:center;
+    padding: 30PX ;
+    Margin: 25px;
+    text-decoration: none;
+    
+}
+NAV a:hover {
+    background: #d3550d;
+    color: white;
+}
+
+.BANGHIEU {
+    height: 350px;
+    background-color: #bd9a86;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.BANGHIEU h1 {
+    font-size: 45px;
+}
+
+.BANGHIEU p {
+    font-size: 20px;
+}
+
+
+.btn {
+    background: #8b572a;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.TIEUDE {
+    text-align: center;
+    padding: 40px 10px 20px;
+}
+.TIEUDE p {
+    TEXT-ALIGN: CENTER;
+    font-size: 18px;
+    color: #5b351f;
+}
+.TIEUDE h2 {
+    color: #5b351f;
+}
+
+
+
+.MODAU {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+}
+.MODAU P {
+    width: 70%;
+    line-height: 1.7;
+}
+
+.MODAU img {
+    width: 30%;
+    Height: 300px;
+    object-fit: cover;
+
+}
+
+.CHU {
+    line-height: 1.7;
+}
+
+.SPHAM {
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.SPHAM :hover
+{
+    transform: translateY(-5px);
+}
+
+.SPHAM1 {
+    width: 300px;
+    flex: 0 0 300px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+}
+
+.SPHAM1 img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+
+.GIA {
+    color: #a45d25;
+    font-weight: bold;
+}
+
+
+.menu-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    margin-bottom: 50px;
+}
+
+.menu-table th,
+.menu-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.menu-table th {
+    background: #5b351f;
+    color: white;
+}
+
+.gallery {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.gallery img {
+    width: 31%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+.form-box {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 15px;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.form-box button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #5b351f;
+    color: white;
+    border: 0;
+}
+
+.GOC {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.HOPDUNG {
+    background: white;
+    padding: 25px;
+    width: 50%;
+}
+
+
+.video {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.video iframe {
+    width: 70%;
+    height: 350px;
+}
+
+
+footer {
+    background: #3b2418;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
